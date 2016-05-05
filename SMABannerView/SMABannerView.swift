@@ -1,6 +1,5 @@
 //
-//  BannerView.swift
-//  simpleinout-tv
+//  SMABannerView.swift
 //
 //  Created by Bill Burgess on 5/4/16.
 //  Copyright © 2016 Simply Made Apps. All rights reserved.
@@ -8,7 +7,7 @@
 
 import UIKit
 
-enum BannerAlignment: Int {
+enum SMABannerAlignment: Int {
     case Center = 0
     case Left   = 1
     case Right  = 2
@@ -35,7 +34,7 @@ class SMABannerView: UIView {
     var opacity: CGFloat = 0.8
     var bannerHeight: CGFloat = 100.0
     
-    var alignment: BannerAlignment
+    var alignment: SMABannerAlignment
     
     var isShowing: Bool
     var isAnimating: Bool
