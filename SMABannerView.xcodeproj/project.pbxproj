@@ -51,6 +51,7 @@
 		BA1C9B531CDB811F0038FF71 /* SMABannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMABannerView.swift; sourceTree = "<group>"; };
 		BA1C9B551CDB8EA20038FF71 /* SMATestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMATestCase.swift; sourceTree = "<group>"; };
 		BA1C9B571CDB8EB00038FF71 /* SMABannerViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMABannerViewTests.swift; sourceTree = "<group>"; };
+		BA1C9B591CDB900F0038FF71 /* SMABannerView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SMABannerView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		BA1C9B191CDB7F660038FF71 = {
 			isa = PBXGroup;
 			children = (
+				BA1C9B591CDB900F0038FF71 /* SMABannerView.podspec */,
 				BA1C9B241CDB7F660038FF71 /* SMABannerView */,
 				BA1C9B391CDB7F670038FF71 /* SMABannerViewTests */,
 				BA1C9B441CDB7F670038FF71 /* SMABannerViewUITests */,
