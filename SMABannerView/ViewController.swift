@@ -38,5 +38,16 @@ class ViewController: UIViewController {
         simpleBannerView?.hide()
         simpleBannerView = nil
     }
+    
+    @IBAction func showBannerWithDuration() {
+        let banner = SMABannerView(title: "Banner View", message: "This banner will dismiss automatically.", view: self.view)
+        banner.backgroundColor = UIColor.redColor()
+        banner.titleColor = UIColor.whiteColor()
+        banner.messageColor = UIColor.whiteColor()
+        
+        banner.show(5) { 
+            print("This is the dismiss completion block")
+        }
+    }
 }
 
