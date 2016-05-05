@@ -70,7 +70,6 @@ class SMABannerView: UIView {
         titleLabel?.font = self.titleFont
         titleLabel?.textColor = titleColor
         titleLabel?.adjustsFontSizeToFitWidth = true
-        titleLabel?.allowsDefaultTighteningForTruncation = true
         messageLabel = UILabel.init()
         messageLabel?.numberOfLines = 0
         messageLabel?.text = messageString
