@@ -12,9 +12,10 @@
 		BA1C9B2B1CDB7F660038FF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1C9B291CDB7F660038FF71 /* Main.storyboard */; };
 		BA1C9B2D1CDB7F660038FF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1C9B2C1CDB7F660038FF71 /* Assets.xcassets */; };
 		BA1C9B301CDB7F660038FF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1C9B2E1CDB7F660038FF71 /* LaunchScreen.storyboard */; };
-		BA1C9B3B1CDB7F670038FF71 /* SMABannerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9B3A1CDB7F670038FF71 /* SMABannerViewTests.swift */; };
 		BA1C9B461CDB7F670038FF71 /* SMABannerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9B451CDB7F670038FF71 /* SMABannerViewUITests.swift */; };
 		BA1C9B541CDB811F0038FF71 /* SMABannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9B531CDB811F0038FF71 /* SMABannerView.swift */; };
+		BA1C9B561CDB8EA20038FF71 /* SMATestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9B551CDB8EA20038FF71 /* SMATestCase.swift */; };
+		BA1C9B581CDB8EB00038FF71 /* SMABannerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9B571CDB8EB00038FF71 /* SMABannerViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +44,13 @@
 		BA1C9B2F1CDB7F660038FF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA1C9B311CDB7F660038FF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1C9B361CDB7F670038FF71 /* SMABannerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMABannerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA1C9B3A1CDB7F670038FF71 /* SMABannerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMABannerViewTests.swift; sourceTree = "<group>"; };
 		BA1C9B3C1CDB7F670038FF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1C9B411CDB7F670038FF71 /* SMABannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMABannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1C9B451CDB7F670038FF71 /* SMABannerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMABannerViewUITests.swift; sourceTree = "<group>"; };
 		BA1C9B471CDB7F670038FF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1C9B531CDB811F0038FF71 /* SMABannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMABannerView.swift; sourceTree = "<group>"; };
+		BA1C9B551CDB8EA20038FF71 /* SMATestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMATestCase.swift; sourceTree = "<group>"; };
+		BA1C9B571CDB8EB00038FF71 /* SMABannerViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMABannerViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,8 @@
 		BA1C9B391CDB7F670038FF71 /* SMABannerViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA1C9B3A1CDB7F670038FF71 /* SMABannerViewTests.swift */,
+				BA1C9B571CDB8EB00038FF71 /* SMABannerViewTests.swift */,
+				BA1C9B551CDB8EA20038FF71 /* SMATestCase.swift */,
 				BA1C9B3C1CDB7F670038FF71 /* Info.plist */,
 			);
 			path = SMABannerViewTests;
@@ -269,7 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA1C9B3B1CDB7F670038FF71 /* SMABannerViewTests.swift in Sources */,
+				BA1C9B581CDB8EB00038FF71 /* SMABannerViewTests.swift in Sources */,
+				BA1C9B561CDB8EA20038FF71 /* SMATestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
