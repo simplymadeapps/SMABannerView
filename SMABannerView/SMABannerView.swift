@@ -76,7 +76,6 @@ class SMABannerView: UIView {
         messageLabel?.font = messageFont
         messageLabel?.textColor = messageColor
         messageLabel?.adjustsFontSizeToFitWidth = true
-        messageLabel?.allowsDefaultTighteningForTruncation = true
         messageLabel?.lineBreakMode = .ByTruncatingTail
         
         switch alignment {
