@@ -19,10 +19,33 @@ This is the first iteration of this library and works as expected. We needed a s
 Include the `SMABannerView.swift` file in your project.
 
 ##Example
+You can display the banner in as few as 2 lines.
 ``` swift
 let banner = SMABannerView(title: "Simple Title", message: "Simple message to display", view: self.view)
 banner.show()
 ```
+You can display the banner for a specific length of time.
+``` swift
+banner.show(5)
+```
+You can also use the dismiss callback.
+``` swift
+banner.show(5) {
+  // banner has been dismissed
+  banner = nil
+}
+```
+Hide the banner when you are done.
+``` swift
+banner.hide()
+```
+Hide with completion.
+``` swift
+banner.hide({
+  banner = nil
+})
+```
+
 You can fully customize the banner in any way before calling `show()`. All of the properties are public and allow you to override the defaults to format things any way you want.
 
 ``` swift
