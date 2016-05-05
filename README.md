@@ -11,9 +11,11 @@ This is the first iteration of this library and works as expected. We needed a s
 ##Installation
 
 **Cocoapods**
-`pod 'SMABannerView'`
+
+<code>pod 'SMABannerView'</code>
 
 **Manual Installation**
+
 Include the `SMABannerView.swift` file in your project.
 
 ##Example
