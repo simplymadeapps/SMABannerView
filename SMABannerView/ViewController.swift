@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var simpleBannerView: SMABannerView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,20 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func showSimpleButtonPressed() {
+        if simpleBannerView == nil {
+            simpleBannerView = SMABannerView(title: "Simple Title", message: "Simple Message to display", view: self.view)
+            simpleBannerView?.backgroundColor = UIColor.blueColor()
+            simpleBannerView?.titleColor = UIColor.whiteColor()
+            simpleBannerView?.messageColor = UIColor.whiteColor()
+        }
+        
+        simpleBannerView?.show()
+    }
+    
+    @IBAction func hideSimpleButtonPressed() {
+        simpleBannerView?.hide()
+        simpleBannerView = nil
+    }
 }
 

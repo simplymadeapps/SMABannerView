@@ -14,6 +14,7 @@
 		BA1C9B301CDB7F660038FF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1C9B2E1CDB7F660038FF71 /* LaunchScreen.storyboard */; };
 		BA1C9B3B1CDB7F670038FF71 /* SMABannerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9B3A1CDB7F670038FF71 /* SMABannerViewTests.swift */; };
 		BA1C9B461CDB7F670038FF71 /* SMABannerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9B451CDB7F670038FF71 /* SMABannerViewUITests.swift */; };
+		BA1C9B541CDB811F0038FF71 /* SMABannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9B531CDB811F0038FF71 /* SMABannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA1C9B411CDB7F670038FF71 /* SMABannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMABannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1C9B451CDB7F670038FF71 /* SMABannerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMABannerViewUITests.swift; sourceTree = "<group>"; };
 		BA1C9B471CDB7F670038FF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1C9B531CDB811F0038FF71 /* SMABannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMABannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BA1C9B241CDB7F660038FF71 /* SMABannerView */ = {
 			isa = PBXGroup;
 			children = (
+				BA1C9B531CDB811F0038FF71 /* SMABannerView.swift */,
 				BA1C9B251CDB7F660038FF71 /* AppDelegate.swift */,
 				BA1C9B271CDB7F660038FF71 /* ViewController.swift */,
 				BA1C9B291CDB7F660038FF71 /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				BA1C9B281CDB7F660038FF71 /* ViewController.swift in Sources */,
 				BA1C9B261CDB7F660038FF71 /* AppDelegate.swift in Sources */,
+				BA1C9B541CDB811F0038FF71 /* SMABannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				BA1C9B4C1CDB7F670038FF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA1C9B4D1CDB7F670038FF71 /* Build configuration list for PBXNativeTarget "SMABannerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				BA1C9B4F1CDB7F670038FF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA1C9B501CDB7F670038FF71 /* Build configuration list for PBXNativeTarget "SMABannerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				BA1C9B521CDB7F670038FF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
