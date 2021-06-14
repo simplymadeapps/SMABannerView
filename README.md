@@ -1,3 +1,7 @@
+#### WARNING: This repo is deprecated an no longer maintained.
+
+<br>
+
 SMABannerView
 =====================================
 ![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/SMABannerView/badge.png)
@@ -5,10 +9,10 @@ SMABannerView
 
 An easy to use banner view with title and message for all your iOS projects.
 
-##RELEASE 1.0
+## RELEASE 1.0
 This is the first iteration of this library and works as expected. We needed a simple messaging system for our tvOS app and this is what we came up with. It worked so simple that we decided to share it. It doesn't have "everything", but is pretty close. If you have any suggestions, we welcome feedback and pull requests.
 
-##Installation
+## Installation
 
 **Cocoapods**
 
@@ -18,7 +22,7 @@ This is the first iteration of this library and works as expected. We needed a s
 
 Include the `SMABannerView.swift` file in your project.
 
-##Example
+## Example
 You can display the banner in as few as 2 lines.
 ``` swift
 let banner = SMABannerView(title: "Simple Title", message: "Simple message to display", view: self.view)
@@ -71,19 +75,19 @@ banner.isShowing
 banner.isAnimating
 ```
 
-##Requirements
+## Requirements
 SMABannerView requires iOS 8 or later. We will exand support as needed if it doesn't affect anything negatively. If you need this for something older, please submit a pull request.
 * iOS 8.0 or later
 * tvOS 9.0 or later
 
-##Credits
+## Credits
 SMABannerView was written for use in projects created by [Simply Made Apps](https://www.simpleinout.com).
 
-##Creator
+## Creator
 [Bill Burgess](https://github.com/billburgess) [@billburgess](https://twitter.com/billburgess)
 
-##License
+## License
 SMABannerView is available under the MIT license. See the LICENSE file for more information.
 
-##What's Next
+## What's Next
 * Expand test coverage completely
